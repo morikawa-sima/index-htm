@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+
+<head><title>フォームを作りましょう</title></head>
+<body>
+<form method="post">
+<p>
+名前：<input type="text"name="a"size="20">
+</p>
+<p>
+性別：
+<input type="radio"name="b"value="男">男性
+<input type="radio"name="b"value="女">女性
+</p>
+<p>
+年齢：
+<select name="c">
+<option value="19">10代</option>
+<option value="20">20代</option>
+<option value="30">30代</option>
+<option value="40">40代</option>
+<option value="50">50代～</option>
+</select>
+</p> 
+<p>
+好きな料理を選んでください<br>
+<input type="checkbox"name="f1">日本料理
+<input type="checkbox"name="f2">中国料理
+<input type="checkbox"name="f3">フランス料理
+<input type="checkbox"name="f4">イタリア料理
+</p>
+<p>
+ご意見やご要望をお聞かせください<br>
+<textarea name="e"rows="5" cols="50"></textarea>
+</p>
+<p>
+<input type="submit"value="送る">
+<input type="reset"value="中止">
+</p>
+
+</body>
+</html>
